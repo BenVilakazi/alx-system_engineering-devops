@@ -1,22 +1,21 @@
 total 80
--rwxr--r-- 1 root root  16 Aug  1 22:50 0-current_working_directory
--rwxr--r-- 1 root root  35 Aug  2 01:32 100-lets_move
--rwxr--r-- 1 root root  20 Aug  2 01:35 101-clean_emacs
--rwxr--r-- 1 root root  39 Aug  2 01:45 102-tree
--rwxr--r-- 1 root root  21 Aug  2 01:53 103-commas
--rwxr--r-- 1 root root  17 Aug  1 23:51 10-back
--rwxr--r-- 1 root root  30 Aug  1 23:58 11-lists
--rwxr--r-- 1 root root  31 Aug  2 00:30 12-file_type
--rwxr--r-- 1 root root  33 Aug  2 00:35 13-symbolic_link
--rwxr--r-- 1 root root  29 Aug  2 00:40 14-copy_html
--rwxr--r-- 1 root root  15 Aug  1 23:02 1-listit
--rwxr--r-- 1 root root  15 Aug  1 23:06 2-bring_me_home
--rwxr--r-- 1 root root  18 Aug  1 23:09 3-listfiles
--rwxr--r-- 1 root root  19 Aug  1 23:14 4-listmorefiles
--rwxr--r-- 1 root root  20 Aug  1 23:20 5-listfilesdigitonly
--rwxr--r-- 1 root root  43 Aug  1 23:28 6-firstdirectory
--rwxr--r-- 1 root root  50 Aug  1 23:35 7-movethatfile
--rwxr--r-- 1 root root  45 Aug  1 23:40 8-firstdelete
--rwxr--r-- 1 root root  42 Aug  1 23:45 9-firstdirdeletion
--rw-r--r-- 1 root root   0 Aug  2 16:42 README.md
--rw-r--r-- 1 root root 688 Aug  2 02:06 school.mgc
+0-current_working_directory
+100-lets_move
+101-clean_emacs
+102-tree
+103-commas
+10-back
+11-lists
+12-file_type
+13-symbolic_link
+14-copy_html
+1-listit
+2-bring_me_home
+3-listfiles
+4-listmorefiles
+5-listfilesdigitonly
+6-firstdirectory
+7-movethatfile
+8-firstdelete
+9-firstdirdeletion
+school.mgc
