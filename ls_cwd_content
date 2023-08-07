@@ -1,0 +1,9 @@
+total 28
+drwxr-xr-x 6 ben ben 4096 Aug  7 14:11 .
+drwxr-xr-x 5 ben ben 4096 Aug  7 13:35 ..
+drwxr-xr-x 2 ben ben 4096 Aug  7 13:35 0x00-shell_basics
+drwxr-xr-x 2 ben ben 4096 Aug  7 13:35 0x01-shell_permissions
+drwxr-xr-x 2 ben ben 4096 Aug  7 13:56 0x02-shell_redirections
+drwxr-xr-x 8 ben ben 4096 Aug  7 13:47 .git
+-rw-r--r-- 1 ben ben    0 Aug  7 14:11 ls_cwd_content
+-rw-r--r-- 1 ben ben   51 Aug  7 13:35 README.md
