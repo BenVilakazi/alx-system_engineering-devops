@@ -1,2 +1,2 @@
-#!/bin/bask
+#!/bin/bash
 printenv
