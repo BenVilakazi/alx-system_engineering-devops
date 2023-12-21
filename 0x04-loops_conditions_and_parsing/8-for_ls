@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Get the list of files in the current directory
+# Iterate over the list of files
+# Check if the file is hidden
+# Get the part of the name after the first dash
+# Print the name of the file
+
+files=$(ls -1)
+
+
+for file in $files; do
+
+  if [[ $file =~ ^.*?\. ]]; then
+    continue
+  fi
+
+  name=${file:1}
+
+  echo "$name"
+
+done
