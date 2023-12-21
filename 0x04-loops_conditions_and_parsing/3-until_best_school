@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-
-i=0
-
-until [ $i -gt 9 ]
+# This script is displaying "Best School" 10 
+x="0"
+while [ $x -lt 10 ]
 do
-  echo "Best School"
-  i=$((i+1))
+    echo "Best School"
+    x=$((x+1))
 done
