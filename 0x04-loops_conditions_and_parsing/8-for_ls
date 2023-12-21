@@ -1,21 +1,9 @@
 #!/usr/bin/env bash
-# Get the list of files in the current directory
-# Iterate over the list of files
-# Check if the file is hidden
-# Get the part of the name after the first dash
-# Print the name of the file
-
-files=$(ls -1)
-
-
-for file in $files; do
-
-  if [[ $file =~ ^.*?\. ]]; then
-    continue
-  fi
-
-  name=${file:1}
-
-  echo "$name"
-
+#Bash script that displays:
+#The content of the current directory
+#In a list format
+#Where only the part of the name after the first dash is displayed
+for file in *
+do
+    echo "$file" | cut -d "-" -f 2
 done
