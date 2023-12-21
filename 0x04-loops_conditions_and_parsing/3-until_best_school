@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 
-x="0"
-while [ $x -lt 10 ]
+# This script uses until loop to display "Best School" 10 times
+
+a=1
+
+until [ ! $a -le 10 ]
 do
-    echo "Best School"
-    x=$((x+1))
+	echo "Best School"
+	((a++))
 done
