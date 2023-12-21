@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# AWK: Display number of occurencies, IP and HTTP code of apache log
-logfile="apache-access.log"
-less $logfile | awk '{ print $1, $9 }' | sort | uniq -c | sort -n -r
+# groups visitors by IP and HTTP status code, and displays this data.
+
+awk ' { print $1,$9 } ' < apache-access.log | sort | uniq -c | sort -nr
