@@ -16,7 +16,7 @@ frontend  ben-frontend
         default_backend ben-backend
 backend ben-backend
         balance roundrobin
-        server 495185-web-34.203.33.68 check
+        server 495185-web-01 3.86.7.170 check
         server 495185-web-02 100.25.30.85:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
